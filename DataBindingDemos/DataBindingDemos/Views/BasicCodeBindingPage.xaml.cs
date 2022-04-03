@@ -10,6 +10,7 @@ namespace DataBindingDemos.Views
 
             label.BindingContext = slider;
             label.SetBinding(Label.RotationProperty, "Value");
+            label.SetBinding(Label.TextProperty, "Value");
         }
     }
 }
